@@ -1,0 +1,51 @@
+@keyframes jerk {
+  48% {
+    left: 0;
+  }
+  50% {
+    left: 7px;
+  }
+  51% {
+    left: 0;
+  }
+}
+@-webkit-keyframes jerkgreen {
+  0% {
+    left: 0;
+  }
+  30% {
+    left: 0;
+  }
+  31% {
+    left: -60px;
+  }
+  32% {
+    left: 0;
+  }
+  98% {
+    left: 0;
+  }
+  100% {
+    left: 55px;
+  }
+}
+@keyframes jerkblue {
+  0% {
+    left: 0;
+  }
+  30% {
+    left: 0;
+  }
+  31% {
+    left: -50px;
+  }
+  32% {
+    left: 0;
+  }
+  98% {
+    left: 0;
+  }
+  100% {
+    left: 20px;
+  }
+}
