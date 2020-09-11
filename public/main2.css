@@ -1,7 +1,7 @@
 /*@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');*/
 @font-face {
     font-family: ARNewHeiB5Heavy;
-    src: url("public/ARNewHeiB5Heavy.otf") format("opentype");
+    src: url("ARNewHeiB5Heavy.otf") format("opentype");
 }
 *{
   margin: 0;
@@ -14,6 +14,8 @@ body, html {
   height: 100%;
   overflow: hidden;
   background-color: black;
+  background: url("bg-06.jpg");
+  background-size: cover;
 }
 .content{
   width: 100%;
@@ -25,7 +27,7 @@ body, html {
 }
 .content .text{
   position: relative;
-  color: #faddff;
+  color: #fef8ff;
   font-weight: 700;
   font-size: 45px;
   transform: scale(1.6);
@@ -37,12 +39,12 @@ body, html {
 .content .text:before,
 .content .text:after {
   padding: 30px;
-  color:  #fae1ff;
+  color:  #fffcff;
   content: attr(data-text);
   position: absolute;
   width: 100%;
   height: 100%;
-  background: black;
+/*  background: black;*/
   overflow: hidden;
   top: 0;
     
