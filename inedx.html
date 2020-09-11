@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Page Title </title>
+    <link rel="stylesheet" href="public/main.css">
+</head>
+
+<body>
+    <section>
+        <div class="glitch">
+            <div class="text">
+                <span>去_的時尚<br><br>
+                   </span>
+            </div>
+
+        </div>
+    </section>
+    <script src='public/jquery.min.js'></script>
+
+    <script>
+    $(function(){
+      for(i=0;i<4;i++){
+        $('.glitch .text span').eq(0).clone().prependTo('.glitch .text');
+      }
+    });
+    </script>
+</body>
+
+</html>
